@@ -1,6 +1,6 @@
-Howto prove problem
+How to prove problem
 ===
 ```
-npx lerna bootstrap
+npm run start
 npm run test
 ```

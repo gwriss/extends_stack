@@ -4,7 +4,9 @@
   "description": "",
   "private": true,
   "scripts": {
-    "test": "cd somestack; npm test"
+    "start": "npx lerna bootstrap",
+    "test": "cd somestack; npm test",
+    "clean": "git clean -idx"
   },
   "dependencies": {
     "@aws-cdk/core": "1.64.1"
