@@ -12,7 +12,6 @@ test('Empty Stack', () => {
     const someLibStack = new SomeLibStack.SomeLibStack(app, 'SomeLibStack');
     SynthUtils.toCloudFormation(someLibStack);
 
-    // Works!
     const someStack = new SomeStack.SomeStack(app, 'SomeStack');
     try {
         // Error: Unable to find artifact with id "SomeStack"
