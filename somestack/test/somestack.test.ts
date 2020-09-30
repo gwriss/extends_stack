@@ -2,7 +2,7 @@ import {SynthUtils} from '@aws-cdk/assert';
 import * as cdk from '@aws-cdk/core';
 import * as SomeLibStack from '../lib/some-lib-stack';
 import * as SomeStack from '../some-stack';
-import * as SomeExtendsStack from '../../some-extends-stack';
+import * as SomeExtendsStack from 'extends_stack/some-extends-stack';
 import * as BaseStack from '../../basestack/lib/base-stack';
 
 test('Empty Stack', () => {
