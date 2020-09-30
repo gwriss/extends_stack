@@ -1,17 +1,27 @@
 {
   "name": "extends_stack",
-  "version": "1.0.0",
-  "description": "",
-  "private": true,
-  "scripts": {
-    "start": "npx lerna bootstrap",
-    "test": "cd somestack; npm test",
-    "clean": "git clean -idx"
+  "version": "0.1.0",
+  "bin": {
+    "extends_stack": "bin/extends_stack.js"
   },
-  "dependencies": {
-    "@aws-cdk/core": "1.64.1"
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
   },
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "@aws-cdk/assert": "1.64.1",
+    "@types/jest": "^26.0.10",
+    "@types/node": "10.17.27",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.2.0",
+    "aws-cdk": "1.64.1",
+    "ts-node": "^8.1.0",
+    "typescript": "~3.9.7"
+  },
+  "dependencies": {
+    "@aws-cdk/core": "1.64.1",
+    "source-map-support": "^0.5.16"
   }
 }

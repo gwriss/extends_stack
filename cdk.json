@@ -1,5 +1,5 @@
 {
-  "app": "npx ts-node bin/somestack.ts",
+  "app": "npx ts-node bin/extends_stack.ts",
   "context": {
     "@aws-cdk/core:enableStackNameDuplicates": "true",
     "aws-cdk:enableDiffNoFail": "true",

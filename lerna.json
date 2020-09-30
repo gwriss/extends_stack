@@ -1,8 +1,0 @@
-{
-  "packages": [
-    "./",
-    "basestack",
-    "somestack"
-  ],
-  "version": "0.0.0"
-}
